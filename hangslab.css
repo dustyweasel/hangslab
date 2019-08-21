@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "NexaRustSlab";
+  src: url(./fonts/NexaRustSlab-BlackShadow01.otf) format('otf');
+}
+
+body {
+    background-color: black;
+}
+
+.keypad {
+    margin-top: 2em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 4em;
+    height: 4em;
+    margin: .2em;
+    padding: none;
+    border: none;
+    border-radius: .25em;
+}
+
+button.guessed {
+    color: black;
+    background-color: mediumorchid;
+}
+
+button.unguessed {
+    color: black;
+    background-color: gray;
+}
+
+
+
+p.talk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    background: rgba(204, 204, 204, 0.0);
+}
+
+.slab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: none;
+}
+
+.name {
+    position: relative;
+    margin-top: -7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: black;*/
+    background: rgba(204, 204, 204, 0.0);
+    color: white;
+    /*border: solid white 1em;*/
+
+}
+
+button.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 4em;
+    margin: .2em;
+    padding: none;
+    border: none;
+    border-radius: 1em;
+    color: black;
+    background-color: gray;
+    margin-top: -3em;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.name p {
+    line-height: 0px;
+    font-size: 3em;
+    text-transform: lowercase;
+    font-weight: 700;
+    /*white-space: nowrap;*/
+}
+
+p.gameover {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 7em;
+    margin-top: -0.5em;
+    font-weight: 700;
+    background: rgba(204, 204, 204, 0.0);
+}
+
+.slab img {
+    /*display: block;*/
+    width: 90%;
+}
+
+p {
+    font-family: "Cinzel Decorative", Arial, sans-serif;
+    position: relative;
+    color: mediumorchid;
+    background-color: black;
+    /*border: solid white 1em;*/
+}
+
+p.copyright {
+    line-height: 0;
+    font-family: "Cinzel Decorative", Arial, sans-serif;
+    font-size: 1em;
+    margin-left: 5em;
+    /*border: solid white 1em;*/
+}
